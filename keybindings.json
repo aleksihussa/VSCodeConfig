@@ -1,17 +1,15 @@
-// Place your key bindings in this file to override the defaults
 [
-  // FILE TREE
   {
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+e"
+    "key": "shift+n"
   },
   {
     "command": "workbench.files.action.focusFilesExplorer",
-    "key": "ctrl+e",
+    "key": "shift+n",
     "when": "editorTextFocus"
   },
   {
-    "key": "n",
+    "key": "a",
     "command": "explorer.newFile",
     "when": "filesExplorerFocus && !inputFocus"
   },
@@ -21,13 +19,8 @@
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
-    "key": "shift+n",
+    "key": "shift+a",
     "command": "explorer.newFolder",
-    "when": "explorerViewletFocus"
-  },
-  {
-    "key": "ctrl+shift+n",
-    "command": "explorer.newFile",
     "when": "explorerViewletFocus"
   },
   {
