@@ -19,11 +19,6 @@
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
-    "key": "shift+a",
-    "command": "explorer.newFolder",
-    "when": "explorerViewletFocus"
-  },
-  {
     "command": "deleteFile",
     "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
